@@ -1,0 +1,11 @@
+---
+train:
+  threads: 2
+  num_trees: 500
+  tree_depth: 3
+  cascade_depth: 15
+  regularization: 0.10
+  feature_pool: 600
+  test_splits: 20
+  oversampling: 20
+  verbose: True
